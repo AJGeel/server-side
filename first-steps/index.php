@@ -8,3 +8,5 @@ while (false !== ($entry = $d->read())) {
 echo "</ul>";
 $d->close();
 ?>
+
+<?php include 'footer.php'; ?>

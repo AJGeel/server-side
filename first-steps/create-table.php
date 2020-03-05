@@ -1,8 +1,6 @@
+<?php include 'creds.php' ?>
+
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "myDB";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -28,3 +26,5 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 ?>
+
+<?php include 'footer.php'; ?>
