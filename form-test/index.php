@@ -64,6 +64,24 @@
         color: white;
       }
 
+      table {
+        margin: 0 auto;
+        border: 1px solid teal;
+        padding: 2em;
+      }
+
+      table tr {
+        border: none;
+      }
+
+      table tr:nth-child(2n) {
+        background-color: rgba(0, 128, 128, .3);
+      }
+
+      table tr:hover {
+        /* background-color: teal; */
+      }
+
     </style>
   </head>
   <body>
@@ -141,6 +159,12 @@
       <input type="submit" value="submit the form">
 
     </form>
+
+    <?php
+
+    include 'display-data.php';
+
+    ?>
 
     <script src="app.js" charset="utf-8"></script>
 
