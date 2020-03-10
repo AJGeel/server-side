@@ -6,4 +6,6 @@ The passwords are hashed with a strong one-way hashing algorithm which is implem
 
 Passwords hashes are verified at login using PHP's `password_verify()` function.
 
+## Credit
+
 Source code from [Tutorial Republic](https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php)
